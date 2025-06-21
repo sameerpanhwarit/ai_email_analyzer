@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-WORKDIR /app/AI_email_Analyzer
+WORKDIR /app/AI_email_API
 
 # Install dependencies
 RUN pip install --upgrade pip

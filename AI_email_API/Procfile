@@ -1,1 +1,1 @@
-web: gunicorn config.wsgi:application
+web: gunicorn I_email_API.wsgi:application

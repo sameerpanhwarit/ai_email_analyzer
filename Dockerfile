@@ -10,5 +10,5 @@ WORKDIR /app/AI_email_API
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Run Gunicorn from inside the project subdirectory
-CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:8000"]
+# Run migrations and then start Gunicorn
+CMD ["sh", "-c", "python manage.py migrate && gunicorn config.wsgi:application --bind 0.0.0.0:8000"]

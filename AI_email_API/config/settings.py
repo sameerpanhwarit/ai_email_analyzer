@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-x*$(kctpchw)$^89twau%+vh7r1t2w*(gc%yl$=g3j=o*4!nf$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["aiemailanalyzer-production.up.railway.app", "127.0.0.1", "localhost"]
 
 
 # Application definition

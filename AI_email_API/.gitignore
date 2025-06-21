@@ -1,0 +1,42 @@
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Django files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.mo
+
+# Static and media files (optional, if collected or uploaded)
+static/
+staticfiles/
+media/
+
+# Local environment
+.env
+.env.*
+*.env
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+ENV/
+env/

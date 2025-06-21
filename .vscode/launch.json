@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Django",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/AI_email_API/manage.py",
+      "args": ["runserver"],
+      "django": true,
+      "justMyCode": true,
+      "python.pythonPath": "venv/bin/python"
+    }
+  ]
+}
